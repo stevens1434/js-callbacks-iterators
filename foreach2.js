@@ -11,6 +11,14 @@
 
 // your code here
 
+// foods.forEach(function(yum){
+//   console.log(yum);
+// })
+
+var mySentences = foods.forEach(function(foods){
+	console.log(foods.name + " is " + foods.level + " delicious");
+})
+
 // The output should be
 // > Pizza is very delicious
 // > Tacos is mostly delicious

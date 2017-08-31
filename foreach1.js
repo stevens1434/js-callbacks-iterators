@@ -7,6 +7,12 @@ var foods = ["pizza", "tacos", "ice cream"];
 
 // your code here
 
+foods.forEach(function(yum){
+  console.log(yum);
+})
+
+
+
 // The output should be
 // > "I like pizza"
 // > "I like tacos"
